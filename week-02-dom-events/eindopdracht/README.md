@@ -1,5 +1,13 @@
 # Eindopdracht Week 2 — Takenlijst
 
+## Theorie
+
+Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
+
+- [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — `createElement`, `appendChild`, elementen verwijderen
+- [classList](https://meesterjson.nl/cheat-sheet/pages/javascript/classlist.html) — klassen toevoegen/verwijderen/togglen
+- [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — click, submit, keyboard events
+
 ## Opdracht
 
 Maak een werkende takenlijst-app.
@@ -8,7 +16,7 @@ Maak een werkende takenlijst-app.
 
 1. Laat het formulier taken toevoegen aan de lijst
 2. Voeg een checkbox toe waarmee je een taak kunt afvinken (gebruik de klasse `.afgevinkt`)
-3. (Vaag) Voeg extra functionaliteit toe, zoals taken verwijderen of filteren
+3. Voeg extra functionaliteit toe, zoals taken verwijderen of filteren
 
 ## Inleveren
 
