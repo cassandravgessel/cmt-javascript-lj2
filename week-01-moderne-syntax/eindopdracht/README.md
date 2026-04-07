@@ -1,5 +1,13 @@
 # Eindopdracht Week 1 — Medewerker-profielpagina
 
+## Theorie
+
+Gebruik de volgende cheatsheet-pagina's als je ergens niet uitkomt:
+
+- [Moderne syntax](https://meesterjson.nl/cheat-sheet/pages/javascript/modern-syntax.html) — arrow functions, template literals, for/of
+- [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) — elementen aanmaken en tonen
+- [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) — formulier submit afhandelen
+
 ## Opdracht
 
 Maak een pagina waarop je medewerkerprofielen kunt aanmaken.
@@ -8,7 +16,7 @@ Maak een pagina waarop je medewerkerprofielen kunt aanmaken.
 
 1. Laat het formulier werken: sla de invoer op in een object met naam, functie en afdeling
 2. Toon elk profiel als een kaart op de pagina met template literals
-3. (Vaag) Zorg dat de pagina er netjes uitziet en voeg extra functionaliteit toe
+3. Zorg dat de pagina er netjes uitziet en voeg extra functionaliteit toe
 
 ## Inleveren
 

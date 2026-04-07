@@ -1,24 +1,76 @@
-// Herschrijf deze vier functies naar moderne syntax:
+// ============================================================
+//  Week 1 — Oefening 1: Herschrijf naar moderne syntax
+//  Elke functie gebruik je meteen — je ziet het resultaat
+//  in de browser.
+// ============================================================
 
-// 1. Arrow function
+// ------------------------------------------------------------
+//  1. Arrow function
+//  Herschrijf naar een arrow function
+// ------------------------------------------------------------
+
 function berekenOppervlak(breedte, hoogte) {
   return breedte * hoogte;
 }
 
-// 2. Template literal & arrow function
+// Toon het resultaat in de DOM — dit hoef je niet aan te passen:
+document.getElementById('resultaat-oppervlak').textContent =
+  'Oppervlak: ' + berekenOppervlak(5, 3);
+
+// ------------------------------------------------------------
+//  2. Template literal & arrow function
+//  Herschrijf naar een arrow function + template literal
+// ------------------------------------------------------------
+
 function maakZin(naam, stad) {
   return 'Hallo, ik ben ' + naam + ' en ik woon in ' + stad;
 }
 
-// 3. For/of loop en arrow function
+// Toon het resultaat in de DOM — dit hoef je niet aan te passen:
+document.getElementById('resultaat-zin').textContent = maakZin(
+  'Jan',
+  'Rotterdam',
+);
+
+// ------------------------------------------------------------
+//  3. For/of loop & arrow function
+//  Herschrijf de functie naar een arrow function
+//  en de for-loop naar een for...of loop
+// ------------------------------------------------------------
+
 const brands = ['Nike', 'Adidas', 'Dior', 'New Balance'];
 
 function showBrands(brands) {
   for (let i = 0; i < brands.length; i++) {
     console.log(brands[i]);
   }
-  return brands
 }
 
-// 4. querySelector (vervang getElementById)
+// Toon de merken als <li> elementen in de lijst:
+// Dit hoef je niet aan te passen — maar showBrands moet
+// wel werken voor je dit kunt testen
+showBrands(brands);
+
+// Extra: toon ook in de DOM
+const merkenLijst = document.getElementById('merken-lijst');
+for (let i = 0; i < brands.length; i++) {
+  merkenLijst.innerHTML += '<li>' + brands[i] + '</li>';
+}
+
+// ------------------------------------------------------------
+//  4. querySelector & addEventListener
+//  Vervang ALLE getElementById in dit bestand door querySelector
+//  Voeg daarna een event listener toe aan de knop:
+//  bij klik op de knop verandert de tekst van de <h1>
+// ------------------------------------------------------------
+
+// Stap A: vervang getElementById door querySelector
 const knop = document.getElementById('mijn-knop');
+const titel = document.getElementById('pagina-titel');
+
+// Stap B: voeg een event listener toe aan de knop
+// Bij klik verandert de tekst van de h1 naar iets anders
+// Gebruik een arrow function en een template literal
+knop.addEventListener('click', function () {
+  titel.textContent = 'De knop is geklikt!';
+});

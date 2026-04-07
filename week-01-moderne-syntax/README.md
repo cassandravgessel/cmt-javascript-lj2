@@ -1,5 +1,15 @@
 # Week 1 — Moderne syntax
 
+## Theorie
+
+In deze week leer je de moderne JavaScript-syntax: kortere notaties voor functies, tekst en loops, en hoe je elementen selecteert en aanpast via de DOM.
+
+| Onderwerp | Cheatsheet |
+|-----------|-----------|
+| Arrow functions, template literals, for/of | [Moderne syntax](https://meesterjson.nl/cheat-sheet/pages/javascript/modern-syntax.html) |
+| DOM elementen selecteren en aanpassen | [DOM manipulatie](https://meesterjson.nl/cheat-sheet/pages/javascript/dom-manipulatie.html) |
+| Reageren op gebruikersacties | [Events & listeners](https://meesterjson.nl/cheat-sheet/pages/javascript/events.html) |
+
 ## Weekoverzicht
 
 | Onderdeel | Concept | Tijd |
