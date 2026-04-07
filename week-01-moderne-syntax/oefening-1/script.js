@@ -5,18 +5,19 @@ function berekenOppervlak(breedte, hoogte) {
   return breedte * hoogte;
 }
 
-// 2. Template literal
+// 2. Template literal & arrow function
 function maakZin(naam, stad) {
   return 'Hallo, ik ben ' + naam + ' en ik woon in ' + stad;
 }
 
-// 3. For/of loop
-function somArray(getallen) {
-  let totaal = 0;
-  for (let i = 0; i < getallen.length; i++) {
-    totaal += getallen[i];
+// 3. For/of loop en arrow function
+const brands = ['Nike', 'Adidas', 'Dior', 'New Balance'];
+
+function showBrands(brands) {
+  for (let i = 0; i < brands.length; i++) {
+    console.log(brands[i]);
   }
-  return totaal;
+  return brands
 }
 
 // 4. querySelector (vervang getElementById)
